@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Project Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><img src="./img/logo.svg" alt="Logo"></div>
+        <div class="header-icons">
+            <div class="icon user"><img src="./img/home.png" alt="Home Icon"></div>
+            <div class="icon notifications"><img src="./img/bell.png" alt="Notifications Icon"></div>
+            <div class="icon settings"><img src="./img/tools.png" alt="Settings Icon"></div>
+            <div class="icon profile"><img src="./img/profile.png" alt="Profile Icon"></div>
+            <div class="icon dots"><img src="./img/threedots.png" alt="More Options Icon"></div>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-title expanded-title">Journey Board</div>
+                <div class="collapsed-menu">
+                    <button class="menu-icon collapsed-icon" aria-label="Expand Sidebar"><img src="./img/collapsed-arrow.png" alt="Collapsed Icon"></button>
+                </div>
+            </div>
+            <div class="big-one">1</div>
+            <div class="menu">
+                <ul>
+                    <li class="list-heading">Explore the world of management</li>
+                    <li>Technical Project Management</li>
+                    <li>Threadbuild</li>
+                    <li>Structure your Pointers</li>
+                    <li>G&As Method</li>
+                </ul>
+            </div>
+        </aside>
+        
+        <main class="content">
+            <div class="heading-with-cta">
+                <h2 class="task-title">Technical Project Management</h2>
+                <a href="#" class="cta-button">Submit task</a>
+            </div>
+            <div class="task-info">
+                <div class="task-description">Explore the world of management...</div>
+                <div class="task-content">As a project manager, you play an important role in leading a project through initiation, planning, execution, monitoring, controlling and completion. How? Do you want to manage each and every step of your life?</div>
+            </div>
+            <div class="cards">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Technical Project Management</h3>
+                    </div>
+                    <div class="card-description">
+                        <p><b>Description: </b>Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p>
+                    </div>
+                    <hr>   
+                    <div class="card-image">
+                        <img src="img/card-img-1.png" alt="Card 1 Image">
+                    </div>
+                </div>
+                <!-- End Card 1 -->
+            
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Threadbuild</h3>
+                    </div>
+                    <div class="card-description">
+                        <p><b>Description:</b> Watch the video and threadbuild, and jot out key threads while watching the video.</p>
+                    </div>
+                    <hr>   
+                    <div class="card-image">
+                        <img src="img/card-img-2.png" alt="Card 2 Image">
+                    </div>
+                </div>
+                <!-- End Card 2 -->
+            
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Structure your Pointers</h3>
+                    </div>
+                    <div class="card-description">
+                        <p><b>Description: </b> Write a 300-400 word article from your thread. Publish your understanding and showcase your understanding to the entire world.</p>
+                    </div>
+                    <hr>   
+                    <div class="card-image">
+                        <img src="img/card-img-3.png" alt="Card 3 Image">
+                    </div>
+                </div>
+                <!-- End Card 3 -->
+            
+                <!-- Card 4 -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>4SA Method</h3>
+                    </div>
+                    <div class="card-description">
+                        <p><b>Description: </b>To Explore more read more.</p>
+                    </div>
+                    <hr>   
+                    <div class="card-image">
+                        <img src="img/card-img-4.png" alt="Card 4 Image">
+                    </div>
+                </div>
+                <!-- End Card 4 -->
+            </div>
+        </main>
+        <div class="right-sidebar" id="rightSidebar">
+            <div class="notice-board">
+                <div class="close-notice" onclick="toggleNoticeBoard()">×</div>
+                <div class="notice-content">
+                    <div class="notice-letter">N</div>
+                    <div class="notice-letter">o</div>
+                    <div class="notice-letter">t</div>
+                    <div class="notice-letter">i</div>
+                    <div class="notice-letter">c</div>
+                    <div class="notice-letter">e</div>
+                    <div class="notice-letter"> </div>
+                    <div class="notice-letter"> </div>
+                    <div class="notice-letter">B</div>
+                    <div class="notice-letter">o</div>
+                    <div class="notice-letter">a</div>
+                    <div class="notice-letter">r</div>
+                    <div class="notice-letter">d</div>
+                </div>
+            </div>
+        </div>
+             
+    </div>
+    <footer class="footer">
+        <div class="footer-button" aria-label="Help"><img src="img/question-mark.png" alt=""></div>
+        <div class="footer-button" aria-label="Info"><img src="img/meeting.png" alt=""></div>
+        <div class="footer-button" aria-label="Settings"><img src="img/calender.png" alt=""></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
